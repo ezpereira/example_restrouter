@@ -1,0 +1,17 @@
+{
+    "name": "ezequiel/test",
+    "description": "no description",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ezpereira/restrouter"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "rest/router": "dev-master"
+    },
+    "scripts": {
+        "serve": "php -S 0.0.0.0:3000"
+    }
+}
